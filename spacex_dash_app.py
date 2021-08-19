@@ -21,6 +21,8 @@ app.layout = html.Div(children=[html.H1('SpaceX Launch Records Dashboard',
                                 # TASK 1: Add a dropdown list to enable Launch Site selection
                                 # The default select value is for ALL sites
                                 # dcc.Dropdown(id='site-dropdown',...)
+                                html.H2('Dashboard created by Mitchell Xanders',
+                                        style={'textAlign': 'center', 'color': '#100C40', 'font-size': 20}),
                                 html.Br(),
                                 html.Div(dcc.Dropdown(id='site-dropdown',
                                                       options=[
